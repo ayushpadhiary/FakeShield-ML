@@ -149,7 +149,7 @@ Open the notebook and run all cells.
 # 🏗️ System Workflow
 
 <p align="center">
-  <img src="images/system_workflow.png" height="450">
+  <img src="images/system_workflow.png" height="500">
 </p>
 
 ---
@@ -157,7 +157,7 @@ Open the notebook and run all cells.
 # 📈 Model Accuracy Comparison
 
 <p align="center">
-  <img src="images/accuracy.png" width="700">
+  <img src="images/accuracy.png" width="500">
 </p>
 
 ---
@@ -165,7 +165,7 @@ Open the notebook and run all cells.
 # 📊 Confusion Matrices
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="900">
+  <img src="images/confusion_matrix.png" width="500">
 </p>
 
 ---
@@ -173,7 +173,7 @@ Open the notebook and run all cells.
 # 🔍 Sample Prediction
 
 <p align="center">
-  <img src="images/prediction.png" width="700">
+  <img src="images/prediction.png" width="500">
 </p>
 
 # 🔮 Future Improvements
