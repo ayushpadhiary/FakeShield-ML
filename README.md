@@ -149,7 +149,7 @@ Open the notebook and run all cells.
 # 🏗️ System Workflow
 
 <p align="center">
-  <img src="images/system_workflow.png" height="300">
+  <img src="images/system_workflow.png" height="450">
 </p>
 
 ---
