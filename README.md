@@ -1,28 +1,61 @@
 # 🛡️ FakeShield - Fake News Detection using Machine Learning
 
-## 📌 Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue?logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-FakeShield is a Machine Learning project that detects whether a news article is **Real** or **Fake** using Natural Language Processing (NLP) techniques and multiple classification algorithms.
+---
 
-The project preprocesses news articles, converts text into numerical features using **TF-IDF Vectorization**, trains multiple machine learning models, and compares their performance.
+## 📖 Overview
+
+FakeShield is a Machine Learning-based Fake News Detection system that classifies news articles as **Real** or **Fake** using Natural Language Processing (NLP).
+
+The project performs data preprocessing, feature extraction using TF-IDF Vectorization, trains multiple machine learning models, evaluates their performance, and predicts whether a news article is genuine or fake.
 
 ---
 
 ## ✨ Features
 
-- Data Cleaning and Preprocessing
-- Stopword Removal
-- Stemming using NLTK
+- News text preprocessing
+- Stopword removal
+- Porter Stemming
 - TF-IDF Vectorization
-- Multiple Machine Learning Models
-- Accuracy Comparison
-- Classification Report
-- Confusion Matrix
-- Fake News Prediction
+- Multiple Machine Learning models
+- Accuracy comparison
+- Classification reports
+- Confusion matrix visualization
+- Interactive prediction system
 
 ---
 
-## 🧠 Machine Learning Models Used
+# 🧠 Machine Learning Pipeline
+
+```
+Dataset
+    │
+    ▼
+Cleaning
+    │
+    ▼
+Stopword Removal
+    │
+    ▼
+Stemming
+    │
+    ▼
+TF-IDF Vectorization
+    │
+    ▼
+Model Training
+    │
+    ▼
+Prediction
+```
+
+---
+
+# 🤖 Models Used
 
 - Logistic Regression
 - Multinomial Naive Bayes
@@ -31,31 +64,39 @@ The project preprocesses news articles, converts text into numerical features us
 
 ---
 
-## 📂 Dataset
+# 📊 Evaluation Metrics
+
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+
+---
+
+# 📂 Dataset
 
 The project uses two datasets:
 
 - Fake.csv
 - True.csv
 
-These datasets are merged, shuffled, and preprocessed before training.
+These datasets are merged and shuffled before preprocessing.
 
 ---
 
-## ⚙️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
-- NLTK
 - Matplotlib
 - Seaborn
+- NLTK
+- Scikit-learn
 - Jupyter Notebook
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 FakeShield-ML
@@ -79,7 +120,7 @@ FakeShield-ML
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
 Clone the repository
 
@@ -93,7 +134,7 @@ Go to the project directory
 cd FakeShield-ML
 ```
 
-Install dependencies
+Install the dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -103,36 +144,51 @@ Open the notebook and run all cells.
 
 ---
 
-## 📊 Workflow
+# 📸 Screenshots
 
-1. Load Dataset
-2. Data Cleaning
-3. Text Preprocessing
-4. TF-IDF Vectorization
-5. Train Machine Learning Models
-6. Evaluate Performance
-7. Predict News Authenticity
+## Accuracy Comparison
+
+> (To be added)
 
 ---
 
-## 🔮 Future Improvements
+## Confusion Matrix
 
-- Deep Learning models (LSTM/BERT)
-- Web Application using Flask or Streamlit
+> (To be added)
+
+---
+
+## Prediction Example
+
+> (To be added)
+
+---
+
+# 🔮 Future Improvements
+
+- Streamlit Web Application
+- Flask REST API
+- BERT Transformer Model
 - Real-time News Detection
 - Model Deployment
-- API Integration
+- Docker Support
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Ayush Kumar Padhiary**
+**Ayush Padhiary**
 
 GitHub: https://github.com/ayushpadhiary
 
 ---
 
-## 📜 License
+# ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub.
+
+---
+
+# 📜 License
 
 This project is licensed under the MIT License.
