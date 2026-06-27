@@ -146,23 +146,35 @@ Open the notebook and run all cells.
 
 # 📸 Screenshots
 
-## Accuracy Comparison
+# 🏗️ System Workflow
 
-> (To be added)
-
----
-
-## Confusion Matrix
-
-> (To be added)
+<p align="center">
+  <img src="images/system_workflow.png" width="900">
+</p>
 
 ---
 
-## Prediction Example
+# 📈 Model Accuracy Comparison
 
-> (To be added)
+<p align="center">
+  <img src="images/accuracy.png" width="700">
+</p>
 
 ---
+
+# 📊 Confusion Matrices
+
+<p align="center">
+  <img src="images/confusion_matrix.png" width="900">
+</p>
+
+---
+
+# 🔍 Sample Prediction
+
+<p align="center">
+  <img src="images/prediction.png" width="700">
+</p>
 
 # 🔮 Future Improvements
 
